@@ -4,9 +4,7 @@ import AppContextProvider from './context/AppContext';
 import router from './routes/router';
 const App = () => {
   return (
-    <AppContextProvider>
-      <RouterProvider router={router}/>
-    </AppContextProvider>
+    <h1>hey</h1>
   )
 }
 
